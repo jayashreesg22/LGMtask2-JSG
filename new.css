@@ -1,0 +1,86 @@
+body{
+    display:block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("https://wallpaperaccess.com/full/187166.jpg");
+      background-repeat: no-repeat;
+    background-size:cover ;
+}
+.container
+{
+    position: relative;
+    height:600px;
+    left:0px
+   
+}
+.heder
+ {
+    height:100px;
+    width:100%; 
+    background-image: url("https://zenprospect-production.s3.amazonaws.com/uploads/pictures/60e4124279d1ea0001c06a84/picture");
+        background-size: 200px;
+    background-repeat: no-repeat;
+    border-bottom:2px solid #fafdfc;
+    padding-top: 50px;
+    font-size: 50px;
+    color: ghostwhite;
+    font-family:serif;
+    
+}
+.mainhead{
+    height: 400px;
+    width: 700px;
+    font-size: 500px;
+}
+.btn{
+    position:absolute;
+    top:45px;
+    right:20px;
+    
+}
+button{
+    color:black;
+    height:35px;
+    width:100px;
+
+    background-image: linear-gradient(red,orange);
+    border-radius: 10px;
+
+    
+}
+#data
+{
+    width:99%;
+    height:450px;
+    text-align: right;
+    justify-content: center;
+    display: flex;   
+    
+}
+.table
+{
+    width:800px;
+
+}
+table{
+    color:rgb(236, 231, 228);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 700;
+    
+}
+table tr :hover{
+    background-color:#070606;
+
+}
+img{
+    clip-path: circle();
+}
+.welcome{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    color: #ffffff;
+    padding-top: 120px;
+}
+.p{
+    color: aliceblue;
+}
